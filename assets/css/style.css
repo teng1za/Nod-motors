@@ -1,0 +1,11 @@
+@font-face {
+    font-family: panton;
+    src: url(../fonts/panton.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
