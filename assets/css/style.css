@@ -9,3 +9,218 @@
     text-decoration: none;
     list-style: none;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-family: panton;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    margin-left: 11%;
+    margin-bottom: -45px;
+    z-index: 1;
+    margin-top: 10px;
+}
+
+
+
+.headnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+    color: #181818;
+
+}
+
+.cars,
+.terms,
+.contact,
+.book {
+    color: #181818;
+}
+
+.cars:hover {
+    color: #6AB04C;
+    transition: 300ms color ease;
+}
+
+.terms:hover {
+    color: #6AB04C;
+    transition: 300ms color ease;
+}
+
+.contact:hover {
+    color: #6AB04C;
+    transition: 300ms color ease;
+}
+
+.book:hover {
+    color: #6AB04C;
+    transition: 300ms color ease;
+}
+
+.book {
+    padding: 15px 32px 15px 35px;
+    border-radius: 30px;
+    background-image: linear-gradient(#6AB04C, #BADC58);
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.heromain::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background: #E8F0F3;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.heromain {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: calc(100vh - 60px);
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: -7%
+}
+
+
+
+.hero-content::before {
+    content: 'nodmotors';
+    display: block;
+    width: 100%;
+    position: relative;
+    top: calc(50% - 50px);
+    font-size: 250px;
+    font-family: panton;
+    opacity: .6;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 8px 11px rgba(24, 24, 24, .06);
+    z-index: -1;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content h1 {
+    position: relative;
+    font-size: 30px;
+    margin-left: -60%;
+    margin-top: -30px;
+
+}
+
+.hero-content p {
+    position: relative;
+    margin-left: -69%;
+    margin-bottom: -60px
+}
+
+section p {
+    color: #fff;
+    font-size: 14px
+}
+
+.specs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -50px;
+    width: 55%
+}
+
+.specs li {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero1 {
+    color: #6AB04C;
+    font-size: 12px;
+}
+
+.hero2 {
+    font-size: 30px;
+}
+
+.carmenu {
+    height: 1795px;
+    background-color: blueviolet;
+    margin-top: 9.6%
+}
+
+
+.scroll {
+    width: 88%
+}
+
+.scrolldown {
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: linear-gradient(#6AB04C, #BADC58);
+
+}
+
+a.scrolldown {
+
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 25px;
+}
+
+footer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #95A5A6;
+    height: 130px;
+    margin-left: 5%
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cont {
+    color: #95A5A6
+}
+
+.cont:hover {
+    color: #6AB04C;
+}
