@@ -46,14 +46,14 @@ header {
 
 }
 
-.cars,
+.carss,
 .terms,
 .contact,
 .book {
     color: #181818;
 }
 
-.cars:hover {
+.carss:hover {
     color: #6AB04C;
     transition: 300ms color ease;
 }
@@ -208,6 +208,20 @@ a.scrolldown {
     margin-top: 9.6%
 }
 
+h4 {
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.h4-p {
+    font-size: 10px;
+    color: #95A5A6;
+    margin-left: 10%;
+
+
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -222,6 +236,59 @@ a.scrolldown {
     width: calc(33% - 10px);
     margin-top: 7px;
     margin-bottom: 20px;
+}
+
+.colors {
+    display: flex;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.snowwhite {
+    background-color: #fff;
+    border: #181818 .5px solid;
+}
+
+.yellow {
+    background-color: #D1BB3F;
+}
+
+.black {
+    background-color: #181818;
+}
+
+.blue {
+    background-color: #2F6AA2;
+}
+
+.grey {
+    background-color: #95A5A6;
+}
+
+.green {
+    background-color: #6AB04C;
+}
+
+.orange {
+    background-color: #FF9331;
+}
+
+.red {
+    background-color: #AA071E;
+}
+
+.snowwhite,
+.yellow,
+.green,
+.black,
+.blue,
+.grey,
+.red,
+.orange {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 4px;
 }
 
 li div {
@@ -252,6 +319,7 @@ h3 {
 
 .speed {
     display: flex;
+    margin-top: 15px;
 
 }
 
@@ -281,7 +349,8 @@ footer {
 }
 
 .cont {
-    color: #95A5A6
+    color: #95A5A6;
+    margin: 0 5px;
 }
 
 .cont:hover {
