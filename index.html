@@ -45,9 +45,10 @@
                 <li><a href="#carmenu" class="carss">Cars</a></li>
                 <li><a href="#!" class="terms">Terms and Conditions</a></li>
                 <li><a href="#!" class="contact">Contact</a></li>
-                <li><a href="#!" class="book">Book</a></li>
+                <li><a href="#!" class="book" id="book">Book</a></li>
             </ul>
         </nav>
+
         <!-- responsive burger menu -->
         <div class="bmenu">
             <span></span>
@@ -79,15 +80,56 @@
     <section class="carmenu" id="carmenu">
         <h4>Available Cars</h4>
         <p class="h4-p">Please Use filter for optimal results</p>
+        <form action="#!" method="post" class="filter">
+            <div class="first-filter">
+                <div class="Second-filter">
+                    <select name="manufacturer">
+                        <option value="Manufacturer" selected="">Manufacturer</option>
+                        <option value="Tesla">Tesla</option>
+                        <option value="BMW">BMW</option>
+                    </select>
+                </div>
+                <div class="Second-filter">
+                    <select name="model">
+                        <option value="Model" selected="">Model</option>
+                        <option value="Model3">Model 3</option>
+                        <option value="model3s">Model 3S</option>
+                        <option value="model3z">Model 3Z</option>
+                        <option value="X2">X2</option>
+                        <option value="M6">M6 Gran Coupé</option>
+                        <option value="X7">X7</option>
+                    </select>
+                </div>
+                <div class="Second-filter">
+                    <select name="year">
+                        <option value="Year" selected="">Year</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                    </select>
+                </div>
+            </div>
+            <div class="Second-filter add">
+                <select name="many">
+                    <option value="20" selected="">20</option>
+                    <option value="40">40</option>
+                    <option value="60">60</option>
+                </select>
+            </div>
+        </form>
         <ul class="container">
             <li class="cars">
                 <div>
                     <p>from:</p>
                     <h3>59 000 $</h3>
                 </div>
-                <img class="simg" src="media/1.png" alt="">
+                <a href=""><img class="simg" src="media/1.png" alt=""></a>
                 <span class="colors">
-                    <span class="snowwhite"></span>
+                    <span class="white"></span>
                     <span class="black"></span>
                     <span class="red"></span>
                 </span>
@@ -105,9 +147,9 @@
                     <p>from:</p>
                     <h3>79 000 $ </h3>
                 </div>
-                <img class="simg" src="media/2.png" alt="">
+                <a href=""><img class="simg" src="media/2.png" alt=""></a>
                 <span class="colors">
-                    <span class="snowwhite"></span>
+                    <span class="white"></span>
                     <span class="black"></span>
                 </span>
                 <a href="">
@@ -124,9 +166,9 @@
                     <p>from:</p>
                     <h3>103 000 $</h3>
                 </div>
-                <img class="simg" src="media/3.png" alt="">
+                <a href=""><img class="simg" src="media/3.png" alt=""></a>
                 <span class="colors">
-                    <span class="snowwhite"></span>
+                    <span class="white"></span>
                     <span class="orange"></span>
                     <span class="grey"></span>
                     <span class="green"></span>
@@ -141,13 +183,13 @@
             </li>
 
             <li class="cars">
-                <div>
+                <div class="mrgn">
                     <p>from:</p>
                     <h3>61 000 $</h3>
                 </div>
-                <img class="bigimg" src="media/4.png" alt="">
+                <a href=""><img class="bigimg" src="media/4.png" alt=""></a>
                 <span class="colors">
-                    <span class="snowwhite"></span>
+                    <span class="white"></span>
                     <span class="black"></span>
                     <span class="yellow"></span>
                     <span class="grey"></span>
@@ -162,13 +204,13 @@
             </li>
 
             <li class="cars">
-                <div>
+                <div class="mrgn">
                     <p>from:</p>
                     <h3>92 000$</h3>
                 </div>
-                <img class="bigimg" src="media/5.png" alt="">
+                <a href=""><img class="bigimg" src="media/5.png" alt=""></a>
                 <span class="colors">
-                    <span class="snowwhite"></span>
+                    <span class="white"></span>
                     <span class="black"></span>
                     <span class="blue"></span>
                     <span class="grey"></span>
@@ -184,13 +226,13 @@
             </li>
 
             <li class="cars">
-                <div>
+                <div class="mrgn">
                     <p>from:</p>
                     <h3>132 000 $</h3>
                 </div>
-                <img class="bigimg" src="media/6.png" alt="">
+                <a href=""><img class="bigimg" src="media/6.png" alt=""></a>
                 <span class="colors">
-                    <span class="snowwhite"></span>
+                    <span class="white"></span>
                     <span class="black"></span>
                     <span class="grey"></span>
                     <span class="blue"></span>
@@ -267,6 +309,8 @@
             </span>
         </footer>
     </footer>
+
+    <script src="./assets/js/script.js"></script>
 
 </body>
 
