@@ -190,6 +190,7 @@ header {
 .book:hover {
     background-image: linear-gradient(#6AB04C, #BADC58);
     transition: 300ms color ease;
+    color: #FFF
 }
 
 .book {

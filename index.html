@@ -43,8 +43,8 @@
         <nav id="nav">
             <ul class="headnav">
                 <li><a href="#carmenu" class="carss">Cars</a></li>
-                <li><a href="#!" class="terms">Terms and Conditions</a></li>
-                <li><a href="#!" class="contact">Contact</a></li>
+                <li><a href="/assets/terms.html" class="terms">Terms and Conditions</a></li>
+                <li><a href="assets/contact.html" class="contact">Contact</a></li>
                 <li><a href="#!" class="book" id="book">Book</a></li>
             </ul>
         </nav>
@@ -53,7 +53,7 @@
                 <form action="#!" method="post" class="message_form" id="message_form">
                 <h1 class="form_h1" >Booking Form</h1>
                 <p class="form_p" >Includes Michelin Pilot Sport 4S tires, larger, more powerful brakes and lowered</p>
-                <input type="text" class="disable" name="firstname" value="Nodar" placeholder="Name">
+                <input type="text" class="disable" name="name" value="Nodar" placeholder="Name">
                 <input type="text" class="disable" name="subject" placeholder="Subject">
                 <input type="text" class="disable" name="email" placeholder="Email">
                 <textarea class="disable" cols="22" rows="7" placeholder="Message"></textarea>
@@ -106,14 +106,14 @@
         <form action="#!" method="post" class="filter">
             <div class="first-filter">
                 <div class="Second-filter">
-                    <select name="manufacturer">
+                    <select class="dropdown" name="manufacturer">
                         <option value="Manufacturer" selected="">Manufacturer</option>
                         <option value="Tesla">Tesla</option>
                         <option value="BMW">BMW</option>
                     </select>
                 </div>
                 <div class="Second-filter">
-                    <select name="model">
+                    <select class="dropdown" name="model">
                         <option value="Model" selected="">Model</option>
                         <option value="Model3">Model 3</option>
                         <option value="model3s">Model 3S</option>
@@ -124,7 +124,7 @@
                     </select>
                 </div>
                 <div class="Second-filter">
-                    <select name="year">
+                    <select class="dropdown" name="year">
                         <option value="Year" selected="">Year</option>
                         <option value="2019">2019</option>
                         <option value="2018">2018</option>
@@ -137,7 +137,7 @@
                 </div>
             </div>
             <div class="Second-filter add">
-                <select name="many">
+                <select class="dropdown" name="many">
                     <option value="20" selected="">20</option>
                     <option value="40">40</option>
                     <option value="60">60</option>

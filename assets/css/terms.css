@@ -1,0 +1,261 @@
+@font-face {
+    font-family: panton;
+    src: url(../fonts/panton.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-family: panton;
+}
+/* book meni */
+.book_contact {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    background: #fff;
+    opacity: .95;
+    
+}
+
+.contact_form_show {
+    
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    background: #fff;
+    opacity: .95;
+    
+}
+
+
+.book_contact .message_form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+	margin-top: 120px;
+}
+
+.message_form h1{
+    margin-top: 10px;
+}
+.message_form h1, .message_form p, .message_form input, .message_form textarea {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 216px;
+    padding: 8px 0 8px 10px;
+    font-family: panton;
+    
+}
+.message_form a{
+    width: 216px;
+    background-image: linear-gradient(#6AB04C, #BADC58);
+    height: 23px;
+    text-align: center;
+    border-radius: 10px;
+    color:#fff;
+    
+    
+}
+.message_form a:hover{
+    color: #181818;
+}
+/* book menu end */
+/* thank you start */
+a.send{
+	background-color: #7EC4CE;
+	padding: 10px;
+	color: #fff;
+	margin: 10px;
+}
+a.send:hover{
+	color: #666;
+	animation: fadeIn .5s forwards;
+}
+.check {
+    display: none;
+    margin-top: 350px;
+}
+
+.form_h1 {
+    position: relative;
+    z-index: 999;
+}
+
+.form_p {
+    position: relative;
+    z-index: 999;
+    color: #95A5A6;
+    font-size: 14px;
+}
+
+
+.last-check {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+    text-align: center;
+	background-color: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 3;
+	
+}
+.ty {
+	padding: 10px 0;
+}
+/* thank you end */
+header {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    margin-left: 11%;
+    margin-bottom: -45px;
+    z-index: 55;
+    margin-top: 10px;
+}
+.navnav{
+    position: relative;
+    z-index: 60;
+}
+
+
+.headnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    color: #181818;
+    position: relative;
+    z-index: 60;
+
+}
+
+.carss,
+.terms,
+.contact,
+.book {
+    color: #181818;
+}
+
+
+.carss:hover {
+    color: #6AB04C;
+    transition: 300ms color ease;
+}
+
+.terms:hover {
+    color: #6AB04C;
+    transition: 300ms color ease;
+}
+
+.contact:hover {
+    color: #6AB04C;
+    transition: 300ms color ease;
+}
+
+.book:hover {
+    background-image: linear-gradient(#6AB04C, #BADC58);
+    transition: 300ms color ease;
+    color: #fff
+
+}
+
+.book {
+    padding: 15px 0 15px 0;
+    border-radius: 30px;
+    border: 2px solid #6AB04C;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100px;
+  
+}
+
+.flex1 {
+    flex: 1;
+}
+.bmenu {
+    display: none
+}
+section h1{
+    font-family: panton;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+section p{
+    font-family: panton;
+    font-size: 14px;
+    color: #95A5A6;
+    margin-bottom: 20px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 10%;
+    width: 80%;
+
+    
+}
+
+footer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #95A5A6;
+    height: 130px;
+    margin-left: 5%
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cont {
+    color: #95A5A6;
+    margin: 0 5px;
+}
+
+.cont:hover {
+    color: #6AB04C;
+}

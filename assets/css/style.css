@@ -189,6 +189,7 @@ header {
 .book:hover {
     background-image: linear-gradient(#6AB04C, #BADC58);
     transition: 300ms color ease;
+    color: #FFF
 }
 
 .book {
@@ -281,6 +282,16 @@ select:focus{
     border:none;
     box-shadow:none;
 }
+/* dropdown arrow */
+/* .dropdown { 
+    -webkit-appearance: none;
+    -moz-appearance: window;
+    padding: 2px 50px 2px 2px;
+    border: 1px solid red;
+    background-image: url("");
+   background-repeat: no-repeat;
+   background-position: right center;  
+  } */
 
 .specs {
     display: flex;

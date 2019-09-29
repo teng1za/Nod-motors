@@ -34,4 +34,26 @@ send.addEventListener('click', function(){
    hide[i].style.display = 'none'
  }
 })
+// contact form send
 
+let sent = document.getElementById('contsend')
+let thank = document.getElementById('thank')
+
+sent.onclick = function() {
+  thank.style.display = "block";
+  if( thank.style.display == "block"){
+      sent.style.display = "none"
+  }
+
+}
+// let hidden = document.getElementsByClassName('disable')
+// let cont = document.getElementById ('contsend')
+// cont.onclick = function() {
+
+//   if (hidden.style.display === 'none'){
+//     hidden.style.display = 'block'
+//   }
+//   else {
+//     hidden.style.display = "none"
+//   }
+// }
