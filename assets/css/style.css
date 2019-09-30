@@ -269,15 +269,54 @@ select:focus {
   box-shadow: none;
 }
 /* dropdown arrow */
-/* .dropdown { 
-    -webkit-appearance: none;
-    -moz-appearance: window;
-    padding: 2px 50px 2px 2px;
-    border: 1px solid red;
-    background-image: url("");
-   background-repeat: no-repeat;
-   background-position: right center;  
-  } */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+}
+select {
+  flex: 1;
+  padding: 0 .5em;
+  cursor: pointer;
+}
+/* Arrow */
+.select::after {
+  content: "\2228";
+  font-size: 15px;
+  position: absolute;
+  top: 9px;
+  right: 0;
+  padding: 0 1em;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+/* Transition */
+.select:hover::after {
+  color: #fff;
+}
+.Second-filter.add::after{
+  content: "\2228";
+  font-size: 15px;
+  position: absolute;
+  top: 9px;
+  right: 70px;
+  padding: 0 1em;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+
+}
+
 
 .specs {
   display: flex;
@@ -371,7 +410,11 @@ h4 {
   width: 59%;
 }
 div select:hover {
+  color: #fff;
   background-image: linear-gradient(#6ab04c, #badc58);
+}
+select option{
+  color: #181818
 }
 
 .show {
@@ -723,6 +766,15 @@ footer {
     width: 532px;
     margin: 10px 0
   }
+  /* Arrow */
+.select::after {
+  top: 18px;
+}
+
+.Second-filter.add::after{
+  top: 18px;
+  right: 5px;
+}
   .specs {
     display: flex;
     justify-content: space-around;
