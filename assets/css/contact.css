@@ -25,7 +25,8 @@ body {
   display:none
 }
 .close{
-  display: none;
+  color: #fff;
+  z-index: 0;
 }
 /* book meni */
 .book_contact {
