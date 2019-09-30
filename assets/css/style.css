@@ -768,11 +768,11 @@ footer {
   }
   /* Arrow */
 .select::after {
-  top: 18px;
+  top: 19px;
 }
 
 .Second-filter.add::after{
-  top: 18px;
+  top: 20px;
   right: 5px;
 }
   .specs {
