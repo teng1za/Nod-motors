@@ -416,6 +416,9 @@ div select:hover {
 select option{
   color: #181818
 }
+.dropdown{
+  font-family: panton;
+}
 
 .show {
   width: 30px;
@@ -677,6 +680,17 @@ footer {
     align-items: center;
 
   }
+  .close{
+    font-family: panton;
+    color: #181818;
+    font-weight: bold;
+    position: absolute;
+    bottom: 485px;
+    left: 266px;
+    z-index: 70;
+    font-size: 20px
+  }
+  
   #book1 {
     padding: 15px 0 15px 0;
     border-radius: 30px;

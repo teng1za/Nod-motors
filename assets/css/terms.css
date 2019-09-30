@@ -249,7 +249,16 @@ footer {
 }
 @media only screen and (min-width: 0px) and (max-width: 874px) {
   
- 
+  .close{
+    font-family: panton;
+    color: #181818;
+    font-weight: bold;
+    position: absolute;
+    bottom: 485px;
+    left: 266px;
+    z-index: 70;
+    font-size: 20px
+  }
   .bb {
     position: absolute;
     display: flex;
