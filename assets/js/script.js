@@ -1,5 +1,5 @@
 let contact = document.getElementById("book_contact");
-let Book = document.getElementById("book");
+let Book = document.getElementById("book1");
 
 Book.onclick = function() {
   if (contact.style.display === "block") {
@@ -14,9 +14,11 @@ Book.onclick = function() {
   }
 };
 
+
+
 let check = document.getElementById("check");
 let sendcheck = document.getElementById("checksend");
-let message = document.getElementById("message");
+// let message = document.getElementById("message");
 
 sendcheck.onclick = function() {
   check.style.display = "block";
@@ -29,15 +31,3 @@ send.addEventListener("click", function() {
     hide[i].style.display = "none";
   }
 });
-
-// contact form send
-
-let sent = document.getElementById("contsend");
-let thank = document.getElementById("thank");
-
-sent.onclick = function() {
-  thank.style.display = "block";
-  if (thank.style.display == "block") {
-    sent.style.display = "none";
-  }
-};

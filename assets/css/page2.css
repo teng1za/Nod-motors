@@ -605,9 +605,7 @@ footer {
 
 @media only screen and (min-width: 0px) and (max-width: 874px) {
   
-  html{
-    overflow: hidden;
-  }
+
   .bb {
     position: absolute;
     display: flex;
@@ -751,7 +749,8 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 90%;
+    align-items: center
+  
   }
   .article_p1 img{
     width:100%;
@@ -797,6 +796,10 @@ footer {
     justify-content: center;
     /* margin-left: 5%; */
   }
+  .address{
+    display: flex;
+      flex-direction: column;
+    }
   }
 
 
@@ -804,4 +807,8 @@ footer {
     .main_pic img{
       width:400px;
     }
+    .address{
+      display: flex;
+        flex-direction: column;
+      }
   }

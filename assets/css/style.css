@@ -680,17 +680,22 @@ footer {
     justify-content: space-between;
     width: 0px;
   }
+  .Second-filter{
+    margin: 10px;
+  }
   .Second-filter.add {
     margin-right: 0;
     
   }
   .Second-filter.add select {
-    width: 100%;
+    width: 105%;
     text-align: center;
+    margin-left: -5px;
   }
   .dropdown{
     display: flex;
     width: 532px;
+    margin: 10px 0
   }
   .specs {
     display: flex;
@@ -748,4 +753,27 @@ footer {
         flex-direction: row;
         margin-left: 3%;
       }
+    }
+    @media only screen and (min-width: 0px) and (max-width: 320px) {
+.main_pic img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+.hero-content p{
+  margin-bottom: 30px;
+}
+.filter{
+  margin-left: -20px;
+}
+.cars{
+  margin-left: 0;
+ 
+}
+.carmenu{
+  margin-top: 100px;
+}
+.adress{
+  display: flex;
+  flex-direction: column;
+}
     }
