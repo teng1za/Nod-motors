@@ -24,6 +24,9 @@ body {
 .open {
   display:none
 }
+.close{
+  display: none;
+}
 /* book meni */
 .book_contact {
   display: none;
