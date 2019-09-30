@@ -14,6 +14,21 @@ Book.onclick = function() {
   }
 };
 
+let Bookk = document.getElementById("book2");
+
+Bookk.onclick = function() {
+  if (contact.style.display === "block") {
+    contact.style.display = "none";
+  } else {
+    contact.style.display = "block";
+  }
+  if (this.textContent === "Bookk") {
+    this.textContent = "X";
+  } else {
+    this.textContent = "Bookk";
+  }
+};
+
 
 
 let check = document.getElementById("check");
