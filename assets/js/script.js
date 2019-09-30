@@ -39,7 +39,5 @@ sent.onclick = function() {
   thank.style.display = "block";
   if (thank.style.display == "block") {
     sent.style.display = "none";
-  }else {
-    thank.style.display = "block";
   }
 };
